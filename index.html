@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tp js 22/01</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="app.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<hr><hr>
+	<center><h1>Tp JS</h1></center>
+<hr><hr>
+<div id="bienvenue"></div>
+<hr><hr>
+
+
+	<span id="afficher" onclick="jaffiche();">Cliquez ici pour faire apparaître la calculatrice </span>
+	<span> / </span>
+	<span id="cacher" onclick="jecache();">Cliquez ici pour faire disparaître la calculatrice</span>
+
+
+<div class="container">
+	<form id="calcule">
+	<input type="text" name="nombre1" id="nombre1" onmouseover="mouseOver()" onmouseout="mouseOut()">
+		<select id="operateur" name="operateur" onmouseover="operateurOver()" onmouseout="operateurOut()">
+			<option value="+">+</option>
+			<option value="-">-</option>
+			<option value="*">*</option>
+			<option value="/">/</option>
+			<option value="%">%</option>
+		</select>	
+		<input type="text" name="nombre2" id="nombre2" onmouseover="mouseOver()" onmouseout="mouseOut()">
+		<input type="button" id="calculer" value="calculer"></input>
+		<input id="resultat"></input>
+	</form>
+	<p id="message">Saisir un chiffre</p>
+	<p id="selectioneur">Selectionner un opérateur: + - / * % </p>
+</div>
+<hr><hr>
+
+<img id="grande_image"src="photos/photo(11).jpeg"></img>
+<table>
+	<tr>
+	<td><img src="photo(1).jpeg" id="mignature" onclick="changeImage(this);"></td>
+	<td><img src="photos/photo(2).jpeg "class="mignature" onclick="changeImage(this);"></td>
+</tr>
+<tr>
+	<td><img src="photos/photo(3).jpeg"class="mignature" onclick="changeImage();"></td>
+	<td><img src="photos/photo(4).jpeg"class="mignature" onclick="changeImage();"></td>
+</tr>
+<tr>
+	<td><img src="photos/photo(5).jpeg"class="mignature" onclick="changeImage();"></td>
+	<td><img src="photos/photo(6).jpeg"class="mignature" onclick="changeImage();"></td>
+</tr>
+<tr>
+	<td><img src="photos/photo(7).jpeg"class="mignature" onclick="changeImage();"></td>
+	<td><img src="photos/photo(8).jpeg"class="mignature" onclick="changeImage();"></td>
+</tr>
+<tr>
+	<td><img src="photos/photo(9).jpeg"class="mignature" onclick="changeImage();"></td>
+	<td><img src="photos/photo(10).jpeg"class="mignature" onclick="changeImage();"></td>
+</tr>
+</table>
+
+
+
+
+<script type="text/javascript" src="app.js"></script>
+
+
+</body>
+</html>

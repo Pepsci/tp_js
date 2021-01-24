@@ -1,0 +1,13 @@
+table tr td img{
+	width: 100px;
+	height: 100px;
+}
+
+#grande_image{
+	width: 640px;
+	height: 426px;
+	float: left;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-left: 100px;
+}
