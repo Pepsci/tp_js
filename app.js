@@ -79,9 +79,9 @@ function operateurOut() {
 }
 
 var grande_image = document.getElementsById('grande_image').src;
-var mignature = document.getElementsById('mignature').scr;
-var chemin_image = 'photos/';
+var mignature = document.querySelector('.mignature').scr;
+var chemin_image = '/photos/';
 
  function changeImage(imageaaffiche){
-document.getElementById('grande_image').src= chemin_image + mignature;
+document.getElementById('grande_image').src= mignature.src;
 }
